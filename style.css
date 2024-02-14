@@ -37,16 +37,30 @@ body {
 
 header{
     width: 100%;
-    height: 60px;
+    height: 20px;
     text-decoration: none;
     color: var(--color-text-white);
     
+}
+header div{
+    padding: 3px;
+    background-color: var(--color-grey);
+    border-radius: 3px;
+    margin: 0px 3px;
+    
+    
+}
+.badge-head{
+    padding: 4px;
+    background-color: var(--color-grey);
+    border-radius: 3px;
+    margin: 0px 3px;
 }
 
 /* main */
 
 main{
-    height: calc(100% - 130px);
+    height: calc(100% - 90px);
     padding: 15px;
     gap: 10px;
 
