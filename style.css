@@ -40,10 +40,7 @@ header{
     height: 20px;
     text-decoration: none;
     color: var(--color-text-white);
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    z-index: 90000px;
+    
     
 }
 header div{
